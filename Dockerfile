@@ -1,5 +1,5 @@
 # Install latest debian image
-FROM debian:latest
+FROM debian:12.6
 
 # Create user
 RUN useradd -ms /bin/bash paranoid-user
